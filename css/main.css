@@ -1,0 +1,62 @@
+/*****BODY*****/
+body{
+  font-family: 'Ubuntu Condensed', sans-serif;
+  color:#364041;
+  background-color:#959280
+}
+
+/*****GRID*****/
+.full-width {
+  width: 1200px;
+  margin: 0 auto;
+}
+
+.half-width {
+  width: 600px;
+  float: left;
+}
+
+.third-width {
+  width: 400px;
+  float: left;
+}
+
+/*****HEADER*****/
+
+#header-slogan {
+  background-image: url("../img/pineapple-laptop.jpg");
+  background-size: cover;
+  height: 500px;
+  clear: both;
+}
+
+ul {
+  text-decoration: none;
+}
+
+li {
+  display: inline;
+}
+
+li:nth-child(1) {
+  padding: 0 0 0 100px;
+}
+
+li:nth-child(2) {
+  padding: 0 0 0 30px;
+}
+
+li:nth-child(3) {
+  padding: 0 0 0 30px;
+}
+a {
+  text-decoration: none;
+  color:#364041;
+  font-weight: bold;
+}
+
+h1 {
+  padding: 350px 0 0 440px;
+  font-family: 'Permanent Marker', cursive;
+  color: #BE927A;
+}
