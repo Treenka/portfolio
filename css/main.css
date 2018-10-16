@@ -1,8 +1,8 @@
 /*****BODY*****/
-body{
-  font-family: 'Ubuntu Condensed', sans-serif;
+body {
   color:#364041;
-  background-color:#959280
+  background-color:#676761;
+  font-family: 'Ubuntu Condensed', sans-serif;
 }
 
 /*****GRID*****/
@@ -11,9 +11,17 @@ body{
   margin: 0 auto;
 }
 
+.header-half {
+  width: 600px;
+  float: left;
+  padding: 0px 0px 0px 0px;
+}
+
 .half-width {
   width: 600px;
   float: left;
+  margin: 10px auto;
+  padding: 0px 0px 0px 0px;
 }
 
 .third-width {
@@ -21,42 +29,196 @@ body{
   float: left;
 }
 
+
 /*****HEADER*****/
 
-#header-slogan {
-  background-image: url("../img/pineapple-laptop.jpg");
+header {
+  background: url("../img/pineapple-laptop.jpg");
+  height: 800px;
   background-size: cover;
-  height: 500px;
-  clear: both;
+}
+
+#header {
+  background: #676761;
+  background-size: cover;
+  width: 1335px;
+  height: 65px;
+}
+
+
+#name-logo {
+  font-size: 30px;
+  padding: 5px 0px 0px 5px;
+  margin: 0 auto;
+  text-align: right;
+}
+
+#name {
+  color: #BE927A;
+  font-family: 'Arvo', serif;
+}
+
+#logo {
+  color: #445E47;
+  font-family: 'Supermercado One', cursive;
+}
+
+/*****NAV BAR*****/
+
+nav {
+  margin: 10px 0px 0px 180px;
+  padding: 0px 0px 0px 0px;
 }
 
 ul {
   text-decoration: none;
+  margin: 0;
+  padding: 0;
 }
 
 li {
   display: inline;
+  margin: 0;
 }
 
 li:nth-child(1) {
-  padding: 0 0 0 100px;
+  padding: 0 0 0 0px;
 }
 
 li:nth-child(2) {
-  padding: 0 0 0 30px;
+  margin: 0px 0px 0px 70px;
+  padding: 0 0 0 0px;
 }
 
 li:nth-child(3) {
-  padding: 0 0 0 30px;
+  margin: 0px 0px 0px 70px;
+  padding: 0 0 0 0px;
 }
+
 a {
   text-decoration: none;
   color:#364041;
   font-weight: bold;
+  font-size: 30px;
 }
 
-h1 {
+a:hover {
+  color: #BE927A;
+}
+
+/*****HEADER SUBTITLE*****/
+
+#header-slogan {
   padding: 350px 0 0 440px;
   font-family: 'Permanent Marker', cursive;
-  color: #BE927A;
+  color: #364041;
+  font-size: 40px;
+}
+
+/*****PORTFOLIO*****/
+
+#portfolio-title {
+  margin: 0 auto;
+  color: #445E47;
+  font-family: 'Supermercado One', cursive;
+  font-size: 25px;
+  text-align: center;
+  font-weight: bold;
+  padding: 100px 0px 100px 0px;
+}
+
+img {
+  margin: 39.5px 0px ;
+  padding: 0px 0px 0px 25px;
+}
+
+/*.project-p {
+  height: 321px;
+}*/
+
+/*****Rogue Pickings*****/
+
+#rogue-p {
+  margin: 70px auto;
+  padding: 100px 100px 85px 150px;
+}
+
+/*****Jubilee Austen*****/
+
+#jubilee-austen-p {
+  margin: 60px auto;
+  padding: 80px 100px 80px 150px;
+}
+
+/*****Holstee Manifesto*****/
+
+#holstee-manifesto-p {
+  margin: 77px auto;
+  padding: 100px 100px 69px 150px;
+}
+
+/*****ABOUT ME*****/
+
+#about {
+background: url("../img/about-me.png");
+background-size: cover;
+clear: both;
+height: 400px;
+}
+
+#about-title {
+  padding: 50px 0;
+  color: #445E47;
+  font-family: 'Supermercado One', cursive;
+  font-size: 25px;
+  text-align: center;
+  font-weight: bold;
+}
+
+#about-p {
+  font-size: 20px;
+  line-height: 30px;
+  padding: 0px 0px 0px 300px;
+  margin: 0 auto;
+}
+
+/*****CONTACT*****/
+
+#contact-p {
+  padding: 50px 0px 25px 0px;
+  color: #445E47;
+  font-family: 'Supermercado One', cursive;
+  font-size: 25px;
+  text-align: center;
+  font-weight: bold;
+}
+
+.contact-title {
+  color:#BE927A;
+  font-weight: bold;
+  font-size: 30px;
+  text-align: center;
+}
+
+#hire-me-p {
+  margin: 0px 0px 0px 120px;
+}
+#hire-me-p a {
+  font-size: 20px;
+}
+
+#github-img {
+  padding: 0px 0px 0px 170px;
+}
+
+#meet-me-p {
+  text-align: center;
+}
+
+/*****FOOTER*****/
+
+footer {
+  text-align: center;
+  padding: 50px 0px 0px 0px;
+  clear: both;
 }

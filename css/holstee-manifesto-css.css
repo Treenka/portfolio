@@ -1,0 +1,148 @@
+div {
+	border: 5px solid gray;
+	width: 400px;
+	margin: auto;
+	overflow: hidden;
+	padding: 0;
+	/*background: #33cccc;*/
+}
+
+/*****long red box layout*****/
+.long {
+	background: #ff4d4d;
+	width: 180px;
+	margin: 0;
+	text-align: center;
+}
+
+#top {
+	float: left;
+	height: 353px;
+	padding: 9px 10px 3px 10px;
+}
+
+#first-color-one {
+	font-weight: bold;
+	font-family: 'Oswald', sans-serif;
+	font-size: 25px;
+	padding: 9px 10px 10px 10px;
+}
+
+
+#first-color-two {
+	width: 180px;
+	font-family: 'Quattrocento', serif;
+	text-align: center;
+	font-weight: bold;
+	font-size: 23px;
+	padding: 9px 10px 9px 10px;
+}
+
+/*****first small square on the right*****/
+
+.second-color {
+	background: #0040ff;
+	font-family: 'Quattrocento', serif;
+	text-align: center;
+	width: 180px;
+	font-size: 18px;
+	font-weight: bold;
+
+}
+
+#second-color-one {
+	width: 180px;
+	float: left;
+	margin: 0;
+	padding: 40px 10px;
+}
+
+.font-change {
+	font-family: 'Oswald', sans-serif;
+	font-size: 15px;
+	font-weight: bold;
+}
+
+/*****third color squares*****/
+
+.third-color {
+	background: #b3ffff;
+	font-family: 'Quattrocento', serif;
+	text-align: center;
+	width: 180px;
+	font-size: 18px;
+	font-weight: bold;
+}
+
+#third-color-one {
+	float: left;
+	margin: 0;
+	padding: 40px 10px 33px 10px;
+}
+
+#second-color-two {
+	float: left;
+	margin: -1px 0px 0px 0px;
+	padding: 40px 10px 33px 10px;
+}
+
+.fourth-color {
+	background: #33cccc;
+	font-family: 'Quattrocento', serif;
+	text-align: center;
+	width: 180px;
+	font-size: 18px;
+	font-weight: bold;
+}
+
+#fourth-color-one {
+	float: right;
+	margin: -1px 0px 0px 0px;
+	height: 105px;
+	padding: 50px 10px 24px 10px;
+}
+
+#third-color-two {
+	float: left;
+	margin: 0;
+	height: 105;
+	text-align: center;
+	padding: 40px 10px 88px 10px;
+}
+
+#fourth-color-two {
+	overflow: hidden;
+	padding: 40px 10px 70px 10px;
+	width: 180px;
+	margin: 740px 0px 0px 0px;
+	height: 105;
+	background: #33cccc;
+
+
+}
+
+
+#bottom {
+	overflow: hidden;
+	margin: -373px 0px 0px 0px;
+	float: right;
+	clear: left;
+	height: 350px;
+	padding: 9px 10px 14px 10px;
+}
+
+#one {
+	font-weight: bold;
+	font-family: 'Oswald', sans-serif;
+	font-size: 25px;
+	padding: 12px 12px 9px 10px;
+}
+
+#two {
+	width: 180px;
+	font-family: 'Quattrocento', serif;
+	text-align: center;
+	font-weight: bold;
+	font-size: 23px;
+	padding: 9px 10px 12px 10px;
+}

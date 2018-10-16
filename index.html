@@ -3,15 +3,19 @@
   <head>
     <title>Katree Codes</title>
     <link rel="stylesheet" href="css/main.css">
-    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Arvo|Permanent+Marker|Supermercado+One|Ubuntu+Condensed">
+    <link href="https://fonts.googleapis.com/css?family=Supermercado+One" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Permanent+Marker" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Ubuntu+Condensed" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Arvo:400,700" rel="stylesheet">
   </head>
   <body>
     <header>
-      <div class="full-width">
-        <div class="half-width">
-          <h3>Katrina Johnson | Web Dev & Design</h3>
+      <div id="header">
+        <div class="header-half">
+          <p id="name-logo"><span id="name">Katrina Johnson</span> |
+            <span id="logo">Web Dev & Design</span></p>
         </div>
-        <div class="half-width">
+        <div class="header-half">
           <nav>
             <ul>
               <li><a href="#portfolio">Portfolio</a></li>
@@ -21,28 +25,39 @@
           </nav>
         </div>
       </div>
+      <div>
+        <p id="header-slogan">Let's create it together!</p>
+      </div>
     </header>
-    <div id="header-slogan">
-      <h1>let's make it together</h1>
-    </div>
     <main>
       <div class="full-width" id="portfolio">
-        <p id="portfolio-title">my portfolio</p>
+        <p id="portfolio-title">My Portfolio</p>
       </div>
       <section class="full-width" id="rogue-pickings">
         <div class="half-width">
           <img src="img/rogue-pickings-thumbnail.png" id="rogue-pickings-img" />
         </div>
         <div class="half-width">
-          <p id="rogue-p">From a Photoshop Design Comp, I recreated a website
+          <p id="rogue-p" class="project-p">
+            <a href="projects/rogue-pickings.html">Rogue Pickings</a>
+            <br />
+            <br />
+            <br />
+            From a Photoshop Design Comp, I recreated a website
                advertising Rogue Pickings.</p>
         </div>
       </section>
       <section class="full-width" id="jubilee-austen">
         <div class="half-width">
-          <p id="jubilee-austen-p"> I  was excited to make this mock portfolio.
+          <p id="jubilee-austen-p" class="project-p">
+            <a href="projects/jubilee-austen.html">Jubilee Austen</a>
+            <br />
+            <br />
+            <br />
+              I was excited to make this mock portfolio.
               Using HTML and CSS I put together this clean and elegant website
-              that would make for a wonderful template to showcase a creator’s work.
+              that would make for a wonderful template to showcase a creator&apos;s
+               work.
           </p>
         </div>
         <div class="half-width">
@@ -54,29 +69,36 @@
           <img src="img/holstee-thumbnail.png" id="holstee-manifesto-img" />
         </div>
         <div class="half-width">
-          <p id="holstee-manifesto-p"> I used HTML5 and CSS3 to design a new
+          <p id="holstee-manifesto-p" class="project-p">
+            <a href="projects/holstee-manifesto.html">Holstee Manifesto</a>
+            <br />
+            <br />
+            <br />
+             I used HTML5 and CSS3 to design a new
               look to the Holstee Manifesto.
           </p>
         </div>
       </section>
       <section class="full-width" id="about">
-        <p id="about-title">about me</p>
+        <p id="about-title">About Me</p>
         <p id="about-p">I used to dream of becoming an All-American High Jumper..
             <br />
             Now I just want to code with you.
         </p>
       </section>
       <section class="full-width" id="contact">
-        <p id="about-p">let's connect</p>
+        <p id="contact-p">Let's Connect</p>
         <div class="third-width" id="hire-me">
-          <p class="contact-title">Hire me</p>
+          <p class="contact-title">Contact me</p>
           <p id="hire-me-p"><a href="mailto:treenagrey@gmail.com">
               treenagrey@gmail.com</a>
           </p>
         </div>
         <div class="third-width" id="follow-me">
           <p class="contact-title">Follow me</p>
-          <img src="img/github.png" id="github-img" />
+          <a href="github.com/treenka">
+            <img src="img/github.png" id="github-img" />
+          </a>
         </div>
         <div class="third-width" id="meet-me">
           <p class="contact-title">Meet me</p>
